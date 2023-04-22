@@ -1,7 +1,7 @@
 ---
 title: "Foolproof Sourdough Bread"
 description: "Foolproof Sourdough Bread Recipe"
-heroImage: "/images/sourdough.jpg"
+heroImage: "/images/sourdough.webp"
 pubDate: "Apr 22 2023"
 ---
 
