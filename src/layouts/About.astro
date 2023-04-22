@@ -1,12 +1,9 @@
 ---
-import type { CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
-type Props = CollectionEntry<"blog">["data"];
-
-const { title, description, pubDate, heroImage } = Astro.props;
+const { title, description } = Astro.props;
 ---
 
 <html lang="en">
@@ -24,7 +21,6 @@ const { title, description, pubDate, heroImage } = Astro.props;
     <Header />
     <main>
       <article>
-        {heroImage && <img width={720} height={180} src={heroImage} alt="" />}
         <h2>{title}</h2>
         <hr />
         <slot />
