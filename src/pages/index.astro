@@ -33,6 +33,9 @@ const posts = (await getCollection("blog"))
         transform: scale(1.01);
         transition: all ease-in-out 0.2s;
       }
+      a {
+        text-decoration: none !important;
+      }
     </style>
   </head>
   <body>
@@ -49,8 +52,8 @@ const posts = (await getCollection("blog"))
                     alt={post.data.title}
                     loading="lazy"
                   />
+                  <h2>{post.data.title}</h2>
                 </a>
-                <h2>{post.data.title}</h2>
               </li>
             ))
           }
