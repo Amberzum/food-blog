@@ -5,7 +5,7 @@ import { SITE_TITLE } from "../consts";
 
 <header>
   <h1>
-    {SITE_TITLE}
+    <a href="/">{SITE_TITLE}</a>
   </h1>
   <nav>
     <HeaderLink href="/">Home</HeaderLink>
@@ -20,5 +20,8 @@ import { SITE_TITLE } from "../consts";
   h1 {
     max-width: 13ch;
     margin: 0 0 30px 0;
+  }
+  a {
+    text-decoration: none;
   }
 </style>
