@@ -21,18 +21,22 @@ _If you give this a go, please show me your lovely little loaf on [Instagram](ht
 
 ---
 
-For 1 medium sized loaf, you will need:
+**Ingredients for 1 medium sized loaf:**
 
 - **110g** bubbly sourdough starter
 - **200g** room-temperature water
 - **375g** bread flour - You can use all white, or a combo! I like 300g white with 75g wholemeal. I’d add more water if you choose to do more/all wholemeal though, as it can take more moisture.
 - **8g** salt
 
-Equipment:
+**Equipment:**
 
 - Two bowls, a big one for mixing, and a smaller one for resting your dough to help it keep its shape. If you have a banneton instead, that’s great too!
 - A dutch oven, or oven safe pot with a lid.
 - Baking paper
+
+---
+
+**Method**
 
 1. In your big bowl, mix together your starter and water until you have a well combined, milky mixture.
 
@@ -51,6 +55,8 @@ _If you want to go out, or forget, and skip a few of the folds, it will also be 
 7. Flour your smaller bowl, or banneton, and place the dough inside ‘seam-side up.’ I then like to pull the dough in a little more along the seam with my fingers to create even more tension. Cover the bowl, and leave this in the fridge overnight, or for up to 24-36 hours.
 
 _The longer it stays in there, the more sour it will taste, but you also increase the risk of the yeast getting too tired to make the bread rise in the oven._
+
+---
 
 **Now, you’re ready to bake!**
 

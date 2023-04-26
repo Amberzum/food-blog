@@ -17,6 +17,9 @@ const posts = (await getCollection("blog"))
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
     <style>
       ul {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5em;
         list-style-type: none;
         padding: unset;
       }
