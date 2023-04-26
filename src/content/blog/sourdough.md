@@ -24,7 +24,7 @@ _If you give this a go, please show me your lovely little loaf on [Instagram](ht
 **Ingredients for 1 medium sized loaf:**
 
 - **110g** bubbly sourdough starter
-- **200g** room-temperature water
+- **225g** room-temperature water
 - **375g** bread flour - You can use all white, or a combo! I like 300g white with 75g wholemeal. I’d add more water if you choose to do more/all wholemeal though, as it can take more moisture.
 - **8g** salt
 
