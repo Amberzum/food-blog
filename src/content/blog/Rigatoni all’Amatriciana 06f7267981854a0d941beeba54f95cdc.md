@@ -15,29 +15,29 @@ I’m a garlic girl with the spice tolerance of a small child, so I go heavy on 
 
 **Ingredients for 2 servings:**
 
-**160g** dried rigatoni, or your pasta shape of choice
+- **160g** dried rigatoni, or your pasta shape of choice
 
-**2 tbsp** olive oil
+- **2 tbsp** olive oil
 
-**1 tbsp** tomato paste
+- **1 tbsp** tomato paste
 
-**1** **tin** of whole cherry tomatoes _(Using whole tomatoes instead of chopped gives you great texture, but chopped works if you have that)_
+- **1** **tin** of whole cherry tomatoes _(Using whole tomatoes instead of chopped gives you great texture, but chopped works if you have that)_
 
-**1/2** of a small white onion, diced
+- **1/2** of a small white onion, diced
 
-**4** cloves of garlic, finely chopped
+- **4** cloves of garlic, finely chopped
 
-**50g** of guanciale, thinly sliced and cut into lardons _(pancetta, or unsmoked bacon work too)_
+- **50g** of guanciale, thinly sliced and cut into lardons _(pancetta, or unsmoked bacon work too)_
 
-**30g** parmesan or pecorino, grated
+- **30g** parmesan or pecorino, grated
 
-**A pinch** of chilli flakes, or more if you like more spice
+- **A pinch** of chilli flakes, or more if you like more spice
 
-Salt and pepper to taste
+- Salt and pepper to taste
 
 **Equipment:**
 
-A large pot and a frying pan/skillet with a lid.
+- A large pot and a frying pan/skillet with a lid.
 
 ---
 
