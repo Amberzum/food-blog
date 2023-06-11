@@ -42,7 +42,7 @@ These rolls are simple and versatile, with little active baking time needed. Wha
 
 1. Add the flour, yeast, sugar, salt into a bowl and give everything a mix.
 
-2. Pour over 325ml warm water and add in the honey. Mix with your dough whisk, a wooden spoon, or wet hands until the flour is fully incorporated and you have a shaggy dough.
+2. Pour over the warm water and add in the honey. Mix with your dough whisk, a wooden spoon, or wet hands until the flour is fully incorporated and you have a shaggy dough.
 
 3. Cover and leave to rest for half an hour.
 
