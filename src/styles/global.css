@@ -7,15 +7,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-  font-family: Verdana, sans-serif;
-  text-align: left;
-  background-color: #f9f7f3;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  line-height: 1.5;
-  color: #393d3fef;
-}
 
 h1 {
   @apply text-3xl;
@@ -25,4 +16,22 @@ h2 {
   @apply text-3xl
 }
 
+@layer base {
+  ol {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-type: decimal !important;
+    padding-inline: 28px !important
+  }
+}
+body {
+  font-family: Verdana, sans-serif;
+  text-align: left;
+  background-color: #f9f7f3;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+  color: #393d3fef;
+}
 /* font-family: "Dongle", sans-serif; */
