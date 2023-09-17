@@ -17,58 +17,33 @@ const posts = (await getCollection("blog"))
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
-      ul {
-        display: flex;
-        flex-direction: column;
-        gap: 2.5em;
-        list-style-type: none;
-        padding: unset;
-      }
-      ul li {
-        display: flex;
-        flex-direction: column;
-      }
-      img {
-        height: 250px;
-        width: 100%;
-        object-fit: cover;
-      }
-      img:hover {
-        transform: scale(1.01);
-        transition: all ease-in-out 0.2s;
-      }
-      a {
-        text-decoration: none !important;
-      }
-    </style>
   </head>
   <body>
     <Header />
 
 
-    <main>
-      <section>
-        <ul>
+    <main class="p-4 max-w-lg m-auto">
+        <ul class="flex flex-col w-full gap-12">
           {
             posts.map((post) => (
-              <li>
-                <a href={`/blog/${post.slug}/`}>
+              <li >
+                <a href={`/blog/${post.slug}/`} class="flex flex-col gap-2">
                   <Image
-                    src={post.data.heroImage}
+                    class="w-full rounded-xl hover:shadow-md"
+                    src={post.data.heroImage!}
                     alt={post.data.title}
                     loading="lazy"
                     width="320" height="260"
                     decoding="async"
                     transition:name="image"
                   />
-                  <h2>{post.data.title}</h2>
+                  <h2 class="text-green-700 text-5xl font-bold font-['Dongle'] ">{post.data.title}</h2>
                 </a>
               </li>
             ))
           }
         </ul>
-      </section>
+
     </main>
     <Footer />
   </body>

@@ -8,26 +8,23 @@ import Footer from "../components/Footer.astro";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, heroImage } = Astro.props;
+const { title, description, pubDate, heroImage, tags } = Astro.props;
 ---
 
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} />
-    <style>
-      hr {
-        border-top: 1px solid #ddd;
-        margin-block: 1em;
-      }
-    </style>
   </head>
 
   <body>
     <Header />
-    <main>
-      <article>
-        {heroImage && <Image width={720} height={180} src={heroImage} alt="" transition:name="image" />}
-        <h2>{title}</h2>
+    <main class="p-4 m-auto max-w-xl">
+      <article class="flex flex-col gap-4">
+        {heroImage && <Image class="rounded-xl" width={720} height={180} src={heroImage} alt="" transition:name="image" />}
+        <h2 class="text-5xl font-bold text-green-700 font-['Dongle']">{title}</h2>
+        <ul class="flex gap-2">
+          {tags?.map((tag) => <a href={`/tags/${tag}`}><li class="text-green-700 py-1 px-2 rounded-xl shadow-lg hover:shadow-md border-green-700 border-2">{tag}</li></a>)}
+        </ul>
         <hr />
         <slot />
       </article>

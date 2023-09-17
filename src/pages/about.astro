@@ -1,8 +1,12 @@
 ---
+import BaseHead from "../components/BaseHead.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import Layout from "../layouts/About.astro";
 ---
 
 <Layout title="About Me" description="About Me">
+  <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+
   <p>
     I'm Amber, and I live in London with my husband and two cats. <br />
     Follow along as I create big flavours in our tiny kitchen.
