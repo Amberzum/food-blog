@@ -3,6 +3,7 @@ title: "Easy Pull-Apart Rolls"
 description: "Pull apart roll recipe"
 heroImage: "/images/batch-rolls.webp"
 pubDate: "Jun 26 2023"
+tags: ["recipes", "bread"]
 ---
 
 This dough recipe is a perfect base for any kind of squidgy bread roll application. They're perfect for sandwiches, burgers, sliders, you name it.

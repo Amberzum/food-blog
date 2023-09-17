@@ -3,6 +3,7 @@ title: "Foolproof Sourdough Bread"
 description: "Foolproof Sourdough Bread Recipe"
 heroImage: "/images/sourdough.webp"
 pubDate: "Apr 22 2023"
+tags: ["sourdough", "recipes", "bread"]
 ---
 
 When I first started baking, I assumed making sourdough bread was going to be super involved, complicated and difficult. I guess it can be if you want it to be, but I don’t want that, I just want bread.

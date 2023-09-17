@@ -3,6 +3,7 @@ title: "Rigatoni all'Amatriciana"
 description: "Rigatoni all'Amatriciana Recipe"
 heroImage: "/images/amatriciana.jpg"
 pubDate: "Apr 26 2023"
+tags: ["recipes"]
 ---
 
 Pasta all’Amatriciana is my personal favourite of the classic Roman pasta dishes. As much as I love a carbonara, I can’t resist a rich tomato sauce.
