@@ -26,10 +26,10 @@ const posts = (await getCollection("blog"))
         <ul class="flex flex-col w-full gap-12">
           {
             posts.map((post) => (
-              <li >
-                <a href={`/blog/${post.slug}/`} class="flex flex-col gap-2">
+              <li class="p-2 border-4 border-amber-500 border-double rounded-2xl">
+                <a href={`/blog/${post.slug}/`} class="flex flex-col gap-4">
                   <Image
-                    class="w-full rounded-xl hover:shadow-md"
+                    class="w-full rounded-xl"
                     src={post.data.heroImage!}
                     alt={post.data.title}
                     loading="lazy"
@@ -37,7 +37,10 @@ const posts = (await getCollection("blog"))
                     decoding="async"
                     transition:name="image"
                   />
-                  <h2 class="text-green-700 text-5xl font-bold font-['Dongle'] ">{post.data.title}</h2>
+                  <h2 class="text-green-900 text-5xl font-bold font-['Dongle'] px-2">{post.data.title}</h2>
+                  <ul class="flex gap-2 py-2">
+                    {post.data.tags?.map((tag) => <a href={`/tags/${tag}`}><li class="text-green-700 px-2 rounded-xl border-green-700 border-2 text-sm leading-snug">{tag}</li></a>)}
+                   </ul>
                 </a>
               </li>
             ))

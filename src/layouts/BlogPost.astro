@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import { Image } from 'astro:assets';
+import { Image } from "astro:assets";
 
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
@@ -18,17 +18,40 @@ const { title, description, pubDate, heroImage, tags } = Astro.props;
 
   <body>
     <Header />
-    <main class="p-4 m-auto max-w-xl">
-      <article class="flex flex-col gap-4">
-        {heroImage && <Image class="rounded-xl" width={720} height={180} src={heroImage} alt="" transition:name="image" />}
-        <h2 class="text-5xl font-bold text-green-700 font-['Dongle']">{title}</h2>
-        <ul class="flex gap-2">
-          {tags?.map((tag) => <a href={`/tags/${tag}`}><li class="text-green-700 py-1 px-2 rounded-xl shadow-lg hover:shadow-md border-green-700 border-2">{tag}</li></a>)}
+    <main
+      class="p-4 m-auto max-w-xl min-h-screen flex flex-col justify-between"
+    >
+      <article class="flex flex-col gap-2">
+        {
+          heroImage && (
+            <Image
+              class="rounded-xl"
+              width={720}
+              height={180}
+              src={heroImage}
+              alt=""
+              transition:name="image"
+            />
+          )
+        }
+        <h2 class="text-5xl font-bold text-green-700 font-['Dongle']">
+          {title}
+        </h2>
+        <ul class="flex gap-2 pb-2">
+          {
+            tags?.map((tag) => (
+              <a href={`/tags/${tag}`}>
+                <li class="text-green-700 px-2 rounded-xl border-green-700 border-2 text-sm leading-snug">
+                  {tag}
+                </li>
+              </a>
+            ))
+          }
         </ul>
-        <hr />
+        <hr class="border-orange-400 border-dashed" />
         <slot />
       </article>
+      <Footer />
     </main>
-    <Footer />
   </body>
 </html>

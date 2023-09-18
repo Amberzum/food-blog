@@ -1,13 +1,22 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
-import { SITE_TITLE } from "../consts";
+import { NavDrawer } from "./NavDrawer";
 ---
 
-<header class="flex flex-col py-2 bg-green-700/90 text-green-50 px-4 sticky top-0 z-10 backdrop-blur-lg">
+<header
+  class="flex flex-col py-2 bg-green-700/90 text-green-50 px-4 sticky top-0 z-10 backdrop-blur-lg"
+>
   <nav class="flex items-center justify-between align-middle">
-    <h1 class="font-bold text-4xl font-['Dongle'] pt-1 leading-8">
-      <a href="/">Small Kitchen,<wbr><span class="whitespace-nowrap pr-2"> Big Appetite</span></a>
+    <h1 class="text-4xl font-['Dongle'] pt-1 leading-8 font-thin">
+      <a href="/"
+        >Small Kitchen,<wbr /><span class="whitespace-nowrap pr-2">
+          Big Appetite</span
+        ></a
+      >
     </h1>
-    <HeaderLink class="leading-8 font-bold" href="/about">About</HeaderLink>
+    <!-- <HeaderLink class="leading-8 text-3xl font-['Dongle']" href="/about">
+      About
+    </HeaderLink> -->
+    <NavDrawer client:load />
   </nav>
 </header>
